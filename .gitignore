@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+*.pkl
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# full datasets are large — keep samples only in git by default
