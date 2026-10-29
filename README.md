@@ -1,7 +1,16 @@
-﻿# Rice Leaf Disease Classifier
+# Rice Leaf Disease Classifier
 
 ## Brief description
 An image classifier that detects rice leaf diseases by combining **ResNet50** deep-feature extraction with a classical **SVM**, exposed through a **Gradio** UI. A lighter classic feature + logistic-regression script is also included.
+
+## Tech stack
+- Python 3
+- ResNet50 (TensorFlow / Keras feature extraction)
+- SVM (scikit-learn)
+- OpenCV
+- Gradio
+- NumPy / joblib
+- Classic pipeline: OpenCV features + logistic regression
 
 ## Project purpose
 Classify rice leaf images into disease categories (Bacterial Blight, Blast, Brown Spot, Tungro) for an academic ML / computer-vision project.
